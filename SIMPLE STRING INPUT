@@ -1,0 +1,11 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main(){
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    string s;
+    cout << "Enter your name: "<< flush;
+    cin >> s ;
+    cout << "\n Namah Shivaya, "<< s<<"!";
+}
