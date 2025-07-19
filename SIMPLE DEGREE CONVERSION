@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main(){
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    int c;
+    cout<<"Enter degree in celcius: "<< flush;
+    cin>>c;
+    int f = c*(9/5)+32;
+    cout<<"Degree celcius converted to fahrenheit: "<< f;
+}
