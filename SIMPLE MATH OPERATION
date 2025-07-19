@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main(){
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    int a,b;
+    cout<<"Enter length and breadth(cm): "<< flush;
+    cin>> a >> b;
+    int area_rect = a*b;
+    cout<<"Area of rectangle is "<< area_rect<<" cm^2";
+}
