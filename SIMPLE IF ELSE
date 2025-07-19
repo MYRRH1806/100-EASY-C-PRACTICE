@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main(){
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    int a,b;
+    cout<<"Enter numbers to be divided: "<< flush;
+    cin>> a >> b;
+    int rem = (a>b) ? a%b : b%a;
+    cout<<"Remainder is "<<rem;
+    
+}
