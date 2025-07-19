@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main(){
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+    int a,b;
+    cout<<"Enter numbers to be switched: "<< flush;
+    cin>> a >> b;
+    cout<< "Before switching \n";
+    cout<<"A is "<<a << " and B is "<<b<<"\n";
+    int temp = a; a = b; b = temp;
+    cout<< "After switching \n";
+    cout<<"A is "<<a << " and B is "<<b<<"\n";
+    
+    
+}
